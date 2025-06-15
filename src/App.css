@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body.bg-app {
+  background: linear-gradient(to bottom right, #3b82f6, #8b5cf6, #ec4899);
+}
+body.light {
+  background-color: white;
+  height: 100%;
+  color: black;
+}
+
+body.dark {
+  background-color: #1e1e2f;
+  height: 100%;
+  color: white;
+}
+
+.dark .bg-white {
+  background-color: #1e1e2f; /* переопределение */
+}
+
+.dark .text-black {
+  color: #000000; /* тёмная тема */
+}
