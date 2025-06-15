@@ -149,7 +149,7 @@ export default function Home () {
             ))}
             {loading && (
               <div className='self-center'>
-                <div className='w-6 h-6 border-4 border-blue-500 border-t-transparent rounded-full animate-spin'></div>
+                <div className='w-7 h-6 border-4 border-blue-500 border-t-transparent rounded-full animate-spin'></div>
               </div>
             )}
             {!loading && messages.length === 0 && (
