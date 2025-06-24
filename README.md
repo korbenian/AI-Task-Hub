@@ -24,6 +24,18 @@ AI-чат приложение, вдохновлённое ChatGPT. Хранит
 
 ---
 
+## 🖼️ Скриншоты
+
+### 💬 Чат
+
+![Chat](screenshots/Chat.png)
+
+### 🗂️ Trello-доска
+
+![Trello](screenshots/Trello-board.png)
+
+---
+
 ## ⚙️ Установка и запуск
 
 ```bash
