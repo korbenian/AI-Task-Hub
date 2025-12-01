@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 const ChangeLanguage = () => {
@@ -24,4 +24,4 @@ const ChangeLanguage = () => {
   )
 }
 
-export default ChangeLanguage
+export default ChangeLanguage 
