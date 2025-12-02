@@ -23,12 +23,12 @@ const LogInPage = () => {
   }, [])
 
   const handleLogIn = async (e: React.FormEvent) => {
-    e.preventDefault() //Предотвращаем перезагрузку страницы
+    e.preventDefault() 
     setError(false)
 
     try {
-      await signInWithEmailAndPassword(auth, email, password) //Вход в аккаунт с помощью логина и пароля
-      navigate('/Home') //после вхоа пользователь появляется на главной странице
+      await signInWithEmailAndPassword(auth, email, password) 
+      navigate('/Home') 
     } catch (err) {
       console.log(t('loginFailed'), err)
       setError(true)

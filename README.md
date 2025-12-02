@@ -1,51 +1,60 @@
 # 🧠 ChatGPT Clone — React + Firebase + OpenRouter API
 
-AI-чат приложение, вдохновлённое ChatGPT. Хранит историю чатов в Firebase, поддерживает смену темы и использует OpenRouter API для общения с искусственным интеллектом.
+An AI chat application inspired by ChatGPT. It stores chat history in Firebase, supports theme switching, and uses the OpenRouter API for AI responses.
 
-## 🚀 Стек технологий
+## 🚀 Tech Stack
 
-- 🔵 React + TypeScript + Vite
-- 🎨 Tailwind CSS
-- 🔥 Firebase (Auth + Firestore)
-- 🌐 Express.js (Backend)
-- 🧠 OpenRouter API (альтернатива OpenAI)
+🔵 React + TypeScript + Vite
 
----
+🎨 Tailwind CSS
 
-## ✨ Возможности
+🔥 Firebase (Auth + Firestore)
 
-💬 Чат с искусственным интеллектом в реальном времени
-🧾 История сообщений сохраняется в Firestore
-📁 Множественные чаты с уникальными ID
-🌗 Переключение темы (тёмная/светлая)
-🌍 Перевод интерфейса (i18n)
-🔑 Аутентификация через email/password
-🎯 Простая и чистая структура проекта
+🌐 Express.js (Backend)
+
+🧠 OpenRouter API (OpenAI alternative)
 
 ---
 
-## 🖼️ Скриншоты
+## ✨ Features
 
-### 💬 Чат
+💬 Real-time AI chat
+🧾 Message history stored in Firestore
+📁 Multiple chats with unique IDs
+🌗 Dark/Light theme switcher
+🌍 Multilingual interface (i18n)
+🔑 Email/password authentication
+🎯 Clean and simple project structure
+
+---
+
+## 🖼️ Screenshots
+
+###  📋 Register
+
+![Board](screenshots/Register.jpeg)
+
+###  ❓ AI-Response
+
+![AI](screenshots/AI-response.jpeg)
+
+### 💬 Chat
 
 ![Chat](screenshots/Chat.png)
 
-### 🗂️ Trello-доска
+### 🗂️ Trello-board
 
-![Trello](screenshots/Trello-board.png)
+![Trello](screenshots/Trello-Board.jpeg)
 
 ---
 
-## ⚙️ Установка и запуск
-
-```bash
-# Установка зависимостей
+# Install dependencies
 npm install
 
-# Запуск клиента
+# Run client
 npm run dev
 
-# Запуск сервера
+# Run server
 cd server
 npm install
 node index.js

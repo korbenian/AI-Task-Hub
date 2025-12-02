@@ -91,7 +91,6 @@ const Board = () => {
   }
 
   async function AddTask (boardId: string, columnId: string, task: any) {
-    //Фукнкция добавления карточки в доску
     if (!user) return console.log(t('userNotAuthorized'))
     try {
       const boardRef = doc(db, 'boards', boardId)
