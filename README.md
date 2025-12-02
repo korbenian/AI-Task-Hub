@@ -59,3 +59,4 @@ cd server
 npm install
 node index.js
 ```
+### Vercel - https://vercel.com/sergey-korobovs-projects/ai-task-hub
