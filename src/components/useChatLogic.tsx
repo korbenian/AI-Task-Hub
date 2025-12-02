@@ -53,7 +53,7 @@ export function useChatLogic () {
     setLoading(true)
 
     try {
-      const res = await axios.post('http://localhost:3000/api/chat', {
+      const res = await axios.post('/api/chat', {
         message: input
       })
 

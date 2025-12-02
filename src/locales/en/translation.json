@@ -22,12 +22,9 @@
   "register": "Register",
   "registerWelcome": "Welcome 👋",
   "registerSubtitle": "Sign up to start using the service",
-  "email": "Email",
-  "password": "Password",
   "show": "Show",
   "hide": "Hide",
-  "register": "Register",
   "registerError": "Registration error",
   "alreadyHaveAccount": "Already have an account?",
-  "loginButton": "Log In"
+  "remove": "🗑 Remove"
 }

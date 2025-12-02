@@ -138,8 +138,9 @@ const Board = () => {
               onClick={() =>
                 AddTask('default-board', column.id, {
                   id: Date.now().toString(),
-                  title: t('newTask'),
-                  description: t('description')
+                  title: "newTask",
+description: "description"
+
                 })
               }
             >
@@ -154,7 +155,8 @@ const Board = () => {
                 >
                   <input
                     className='w-full p-2 rounded-md mb-[1vh] bg-gray-100 dark:bg-gray-800 border border-gray-400 dark:border-gray-600 text-black dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500'
-                    value={task.title}
+                  value={t(task.title)}
+
                     onChange={e =>
                       handleTaskChange(
                         column.id,
@@ -166,7 +168,7 @@ const Board = () => {
                   />
                   <textarea
                     className='w-full p-2 rounded-md bg-gray-100 dark:bg-gray-800 border border-gray-400 dark:border-gray-600 text-black dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500'
-                    value={task.description}
+                    value={t(task.description)}
                     onChange={e =>
                       handleTaskChange(
                         column.id,
@@ -182,7 +184,7 @@ const Board = () => {
                     }
                     className='text-red-600 text-xs mt-1 hover:underline'
                   >
-                    🗑 Удалить
+                   {t('remove')}
                   </button>
                 </div>
               ))}

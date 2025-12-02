@@ -6,7 +6,7 @@
   "boardLink": "Доска",
   "askPlaceholder": "Задайте Ваш вопрос",
   "back": "Назад",
-  "newTask": "Новая Задача",
+  "newTask": "Новая задача",
   "description": "Описание",
   "addTask": "Добавить задачу",
   "userNotAuthorized": "Пользователь не авторизован",
@@ -22,12 +22,9 @@
   "register": "Зарегистрироваться",
   "registerWelcome": "Добро пожаловать 👋",
   "registerSubtitle": "Зарегистрируйтесь, чтобы начать пользоваться сервисом",
-  "email": "Email",
-  "password": "Пароль",
   "show": "Показать",
   "hide": "Скрыть",
-  "register": "Зарегистрироваться",
   "registerError": "Ошибка регистрации",
   "alreadyHaveAccount": "Уже есть аккаунт?",
-  "loginButton": "Войти"
+  "remove": "🗑 Удалить"
 }
